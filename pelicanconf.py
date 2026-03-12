@@ -34,11 +34,18 @@ DEFAULT_PAGINATION = 10
 # Custom categories for events and shop
 USE_FOLDER_AS_CATEGORY = True
 
+# Menu items (bilingual categories)
+DISPLAY_CATEGORIES_ON_MENU = True
+MENUITEMS = (
+    ('Events/Dogodki', '/category/eventsdogodki.html'),
+    ('Shop Items/Izdelki', '/category/shop-itemsizdelki.html'),
+)
+
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
 # Theme
-# THEME = 'themes/your-theme-name'
+THEME = 'themes/cebong'
 
 # Static paths
 STATIC_PATHS = ['images', 'extra']
