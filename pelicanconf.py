@@ -22,16 +22,8 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-LINKS = (
-    ('Pelican', 'https://getpelican.com/'),
-    ('Python.org', 'https://www.python.org/'),
-)
-
-# Social widget
-SOCIAL = (
-    ('Instagram', 'https://www.instagram.com/alkimist_lab'),
-)
+# Blogroll (disabled for Flex)
+# LINKS = ()
 
 DEFAULT_PAGINATION = 10
 
@@ -40,14 +32,8 @@ USE_FOLDER_AS_CATEGORY = True
 
 # Menu configuration
 DISPLAY_CATEGORIES_ON_MENU = False
-DISPLAY_PAGES_ON_MENU = False
-
-# Custom menu with language switcher in top right
-MENUITEMS = (
-    ('Dogodki / Events', '/category/events.html'),
-    ('Izdelki / Shop', '/category/shop.html'),
-    ('O Nas / About', '/pages/about.html'),
-)
+DISPLAY_PAGES_ON_MENU = True
+MAIN_MENU = True
 
 # Show translations directly on articles
 DEFAULT_METADATA = {
@@ -58,7 +44,31 @@ DEFAULT_METADATA = {
 #RELATIVE_URLS = True
 
 # Theme
-THEME = 'themes/cebong'
+THEME = 'themes/Flex'
+
+# Flex theme configuration
+SITETITLE = 'Alkimist Lab'
+SITESUBTITLE = 'Kovačke delavnice / Blacksmithing workshops'
+SITEDESCRIPTION = 'Alkimist Lab - Rokodelske delavnice v Sloveniji'
+
+# Flex theme - Dark mode
+THEME_COLOR_AUTO_DETECT_BROWSER_PREFERENCE = True
+THEME_COLOR_ENABLE_USER_OVERRIDE = True
+
+# Flex theme - Main menu items
+MENUITEMS = (
+    ('Dogodki / Events', '/category/events.html'),
+    ('Izdelki / Shop', '/category/shop.html'),
+)
+
+# Flex theme - Social media
+SOCIAL = (
+    ('instagram', 'https://www.instagram.com/alkimist_lab'),
+)
+
+# Flex theme - Copyright
+COPYRIGHT_YEAR = 2026
+COPYRIGHT_NAME = 'Alkimist Lab'
 
 # Static paths
 STATIC_PATHS = ['images', 'extra']
