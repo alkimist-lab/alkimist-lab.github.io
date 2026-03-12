@@ -1,9 +1,9 @@
 Title: Forge Your Own Spiral
 Date: 2026-02-08 15:00
 Modified: 2026-03-12 10:00
-Category: Events/Dogodki
+Category: Events
 Tags: workshop, blacksmithing, crafts, culture day
-Slug: blacksmithing-workshop-spiral
+Slug: blacksmithing-spiral
 Lang: en
 Authors: Alkimist Lab
 Summary: Learn basic blacksmithing techniques and forge your first spiral

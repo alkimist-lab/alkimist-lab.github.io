@@ -1,7 +1,7 @@
-Title: Metanje Podkev / Horseshoe Pitching
+Title: Horseshoe Pitching
 Date: 2024-03-12 10:00
-Category: Shop Items/Izdelki
-Tags: games, sport, fun, igre, šport, zabava
+Category: Shop
+Tags: games, sport, fun
 Slug: horseshoe-pitching
 Lang: en
 Authors: Alkimist Lab

@@ -11,6 +11,10 @@ TIMEZONE = 'UTC'
 
 DEFAULT_LANG = 'sl'
 
+# I18n settings - hide translations from default category/tag pages
+I18N_UNTRANSLATED_ARTICLES = 'hide'
+I18N_UNTRANSLATED_PAGES = 'hide'
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
@@ -34,12 +38,21 @@ DEFAULT_PAGINATION = 10
 # Custom categories for events and shop
 USE_FOLDER_AS_CATEGORY = True
 
-# Menu items (bilingual categories)
-DISPLAY_CATEGORIES_ON_MENU = True
+# Menu configuration
+DISPLAY_CATEGORIES_ON_MENU = False
+DISPLAY_PAGES_ON_MENU = False
+
+# Custom menu with language switcher in top right
 MENUITEMS = (
-    ('Events/Dogodki', '/category/eventsdogodki.html'),
-    ('Shop Items/Izdelki', '/category/shop-itemsizdelki.html'),
+    ('Dogodki / Events', '/category/events.html'),
+    ('Izdelki / Shop', '/category/shop.html'),
+    ('O Nas / About', '/pages/about.html'),
 )
+
+# Show translations directly on articles
+DEFAULT_METADATA = {
+    'status': 'published',
+}
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True

@@ -1,8 +1,8 @@
-Title: Metanje Podkev / Horseshoe Pitching
+Title: Metanje Podkev
 Date: 2024-03-12 10:00
-Category: Shop Items/Izdelki
-Tags: igre, šport, zabava, games, sport, fun
-Slug: metanje-podkev
+Category: Shop
+Tags: igre, šport, zabava
+Slug: horseshoe-pitching
 Lang: sl
 Authors: Alkimist Lab
 Summary: Dobrodošli v svetu zabave - metanje podkev je star šport, ki se je v zadnjem času pojavil kot družabna igra

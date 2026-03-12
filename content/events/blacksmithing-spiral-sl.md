@@ -1,9 +1,9 @@
 Title: Skuj si svojo spiralo
 Date: 2026-02-08 15:00
 Modified: 2026-03-12 10:00
-Category: Events/Dogodki
+Category: Events
 Tags: delavnica, kovaštvo, rokodelstvo, dan kulture
-Slug: kovaska-delavnica-spirala
+Slug: blacksmithing-spiral
 Lang: sl
 Authors: Alkimist Lab
 Summary: Spoznaj osnove kovaštva in si skuj svojo prvo spiralo

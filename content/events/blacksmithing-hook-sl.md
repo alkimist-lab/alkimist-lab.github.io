@@ -1,9 +1,9 @@
 Title: Izdelaj si svoj kovan obešalnik za oblačila
 Date: 2026-03-15 14:00
 Modified: 2026-03-12 10:00
-Category: Events/Dogodki
+Category: Events
 Tags: delavnica, kovaštvo, rokodelstvo
-Slug: kovaska-delavnica-obesalnik
+Slug: blacksmithing-hook
 Lang: sl
 Authors: Alkimist Lab
 Summary: Spoznaj osnove kovaštva in si izdelaj svoj kovani obešalnik za oblačila

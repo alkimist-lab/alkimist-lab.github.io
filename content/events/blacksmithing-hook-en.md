@@ -1,9 +1,9 @@
 Title: Create Your Own Forged Clothing Hook
 Date: 2026-03-15 14:00
 Modified: 2026-03-12 10:00
-Category: Events/Dogodki
+Category: Events
 Tags: workshop, blacksmithing, crafts
-Slug: blacksmithing-workshop-hook
+Slug: blacksmithing-hook
 Lang: en
 Authors: Alkimist Lab
 Summary: Learn the basics of blacksmithing and create your own forged clothing hook

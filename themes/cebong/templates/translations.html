@@ -1,6 +1,27 @@
 {% if article.translations %}
-Translations: 
+<div class="translations">
+    Language:
+    {% if article.lang == 'sl' %}
+        <strong>🇸🇮 SL</strong>
+    {% else %}
+        <a href="{{ SITEURL }}/{{ article.url }}">🇸🇮 SL</a>
+    {% endif %}
     {% for translation in article.translations %}
-        <a href="{{ SITEURL }}/{{ translation.url }}">{{ translation.lang }}</a>
+        {% if translation.lang == 'en' %}
+            {% if article.lang == 'en' %}
+                <strong>🇬🇧 EN</strong>
+            {% else %}
+                <a href="{{ SITEURL }}/{{ translation.url }}">🇬🇧 EN</a>
+            {% endif %}
+        {% elif translation.lang == 'sl' %}
+            {% if article.lang == 'sl' %}
+                <strong>🇸🇮 SL</strong>
+            {% else %}
+                <a href="{{ SITEURL }}/{{ translation.url }}">🇸🇮 SL</a>
+            {% endif %}
+        {% else %}
+            <a href="{{ SITEURL }}/{{ translation.url }}">{{ translation.lang|upper }}</a>
+        {% endif %}
     {% endfor %}
+</div>
 {% endif %}
