@@ -77,10 +77,20 @@ STATIC_PATHS = ['images', 'extra']
 # Plugins
 PLUGINS = ['pelican.plugins.i18n_subsites']
 
-# i18n_subsites configuration
+# i18n_subsites configuration for Jinja2 translation support
+import os
 JINJA_ENVIRONMENT = {
     'extensions': ['jinja2.ext.i18n'],
 }
+
+# Enable theme translations
+# The Flex theme templates are in English by default, so we need translations
+# for both Slovene (main site) and English (subsite)
+I18N_GETTEXT_LOCALEDIR = os.path.abspath(os.path.join(os.getcwd(), THEME, 'translations'))
+I18N_GETTEXT_DOMAIN = 'messages'
+# Theme templates are written in English, so set this to 'en'
+# This tells the plugin that 'en' doesn't need translation, but 'sl' does
+I18N_TEMPLATES_LANG = 'en'
 
 I18N_SUBSITES = {
     'en': {
