@@ -51,9 +51,11 @@
                     <a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a>&nbsp;
                 {% endfor %}
                 {% endif %}
+                {% if DISPLAY_CATEGORIES_ON_MENU %}
                 {% for cat, null in categories %}
                     <a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a>&nbsp;
                 {% endfor %}
+                {% endif %}
                 </nav>
         </header><!-- /#banner -->
         {% block content %}
