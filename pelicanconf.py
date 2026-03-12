@@ -59,10 +59,7 @@ THEME_COLOR_ENABLE_USER_OVERRIDE = True
 MENUITEMS = (
     ('Dogodki', '/category/events.html'),
     ('Izdelki', '/category/shop.html'),
-    ('Events', '/category/events.html'),
-    ('Items', '/category/shop.html'),
     ('English', '/en/index.html'),
-    ('Slovensko', '/index.html'),
 )
 
 # Flex theme - Social media
@@ -90,9 +87,10 @@ I18N_SUBSITES = {
         'SITENAME': 'Alkimist Lab',
         'SITESUBTITLE': 'Blacksmithing workshops and more',
         'MENUITEMS': (
-    ('Events', '/category/events.html'),
-    ('Items', '/category/shop.html'),
-    ('Slovensko', '/index.html'),
-)
+            ('Events', '/category/events.html'),
+            ('Items', '/category/shop.html'),
+            ('English', '/en/index.html'),
+            ('Slovensko', '/index.html'),
+        )
     }
 }
