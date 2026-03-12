@@ -1,6 +1,6 @@
 Title: Metanje Podkev
 Date: 2024-03-12 10:00
-Category: Shop
+Category: Items
 Tags: igre, šport, zabava
 Slug: horseshoe-pitching
 Lang: sl

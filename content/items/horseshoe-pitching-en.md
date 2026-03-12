@@ -1,6 +1,6 @@
 Title: Horseshoe Pitching
 Date: 2024-03-12 10:00
-Category: Shop
+Category: Items
 Tags: games, sport, fun
 Slug: horseshoe-pitching
 Lang: en

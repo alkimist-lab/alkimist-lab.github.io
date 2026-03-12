@@ -27,7 +27,7 @@ AUTHOR_FEED_RSS = None
 
 DEFAULT_PAGINATION = 10
 
-# Custom categories for events and shop
+# Custom categories for events and items
 USE_FOLDER_AS_CATEGORY = True
 
 # Menu configuration
@@ -58,7 +58,7 @@ THEME_COLOR_ENABLE_USER_OVERRIDE = True
 # Flex theme - Main menu items
 MENUITEMS = (
     ('Dogodki', '/category/events.html'),
-    ('Izdelki', '/category/shop.html'),
+    ('Izdelki', '/category/items.html'),
     ('English', '/en/index.html'),
 )
 
@@ -88,7 +88,7 @@ I18N_SUBSITES = {
         'SITESUBTITLE': 'Blacksmithing workshops and more',
         'MENUITEMS': (
             ('Events', '/category/events.html'),
-            ('Items', '/category/shop.html'),
+            ('Items', '/category/items.html'),
             ('English', '/en/index.html'),
             ('Slovensko', '/index.html'),
         )
