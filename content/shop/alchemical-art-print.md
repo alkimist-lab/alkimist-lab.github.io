@@ -1,6 +1,6 @@
 Title: Ročno Izdelan Alkemijski Art Print
 Date: 2024-03-12 10:00
-Category: Shop
+Category: Shop Items/Izdelki
 Tags: umetnost, print, ročno delo
 Slug: alkemijski-art-print
 Authors: Alkimist Lab
