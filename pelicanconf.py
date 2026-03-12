@@ -99,7 +99,6 @@ I18N_SUBSITES = {
         'MENUITEMS': (
             ('Events', '/category/events.html'),
             ('Items', '/category/items.html'),
-            ('English', '/en/index.html'),
             ('Slovensko', '/index.html'),
         )
     }
