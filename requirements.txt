@@ -1,3 +1,4 @@
 pelican[markdown]>=4.8.0
 markdown>=3.4.0
 ghp-import>=2.1.0
+pelican-i18n-subsites>=1.0.0

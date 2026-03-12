@@ -74,5 +74,16 @@ COPYRIGHT_NAME = 'Alkimist Lab'
 STATIC_PATHS = ['images', 'extra']
 
 # Plugins
-# PLUGIN_PATHS = ['plugins']
-# PLUGINS = []
+PLUGINS = ['pelican.plugins.i18n_subsites']
+
+# i18n_subsites configuration
+JINJA_ENVIRONMENT = {
+    'extensions': ['jinja2.ext.i18n'],
+}
+
+I18N_SUBSITES = {
+    'en': {
+        'SITENAME': 'Alkimist Lab',
+        'SITESUBTITLE': 'Blacksmithing workshops and more',
+    }
+}
