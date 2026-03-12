@@ -1,0 +1,176 @@
+# Slovene translations for Flex.
+# Copyright (C) 2025 Alexandre Vicenzi
+# This file is distributed under the same license as the Flex project.
+# Alkimist Lab <alkimist.lab@example.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Flex 2.1.0\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-04-02 15:57-0300\n"
+"PO-Revision-Date: 2026-03-12 12:00+0100\n"
+"Last-Translator: Alkimist Lab\n"
+"Language: sl\n"
+"Language-Team: sl <LL@li.org>\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: templates/archives.html:3 templates/archives.html:8
+#: templates/period_archives.html:2 templates/period_archives.html:7
+msgid "Archives"
+msgstr "Arhiv"
+
+#: templates/article.html:29 templates/index.html:20
+#, python-format
+msgid "Posted on %(when)s in %(category)s"
+msgstr "Objavljeno %(when)s v %(category)s"
+
+#: templates/article.html:34 templates/index.html:32
+#, python-format
+msgid "%(minutes)s min read"
+msgstr "%(minutes)s min branja"
+
+#: templates/article.html:68
+msgid "Like this article? Share it with your friends!"
+msgstr "Vam je všeč ta članek? Delite ga s prijatelji!"
+
+#: templates/article.html:79
+msgid "You might enjoy"
+msgstr "Morda vam bo všeč"
+
+#: templates/author.html:2
+#, python-format
+msgid "Posts by %(name)s"
+msgstr "Objave avtorja %(name)s"
+
+#: templates/authors.html:3 templates/authors.html:8
+msgid "Authors"
+msgstr "Avtorji"
+
+#: templates/categories.html:3 templates/categories.html:8
+msgid "Categories"
+msgstr "Kategorije"
+
+#: templates/category.html:2
+#, python-format
+msgid "Category %(name)s"
+msgstr "Kategorija %(name)s"
+
+#: templates/index.html:25
+msgid "Tagged with"
+msgstr "Označeno z"
+
+#: templates/index.html:46
+msgid "Continue reading"
+msgstr "Preberi več"
+
+#: templates/search.html:3
+msgid "Search"
+msgstr "Iskanje"
+
+#: templates/search.html:8
+msgid "Search Results"
+msgstr "Rezultati iskanja"
+
+#: templates/tag.html:2
+#, python-format
+msgid "Tag %(name)s"
+msgstr "Oznaka %(name)s"
+
+#: templates/tags.html:3 templates/tags.html:8
+msgid "Tags"
+msgstr "Oznake"
+
+#: templates/partial/cc_license.html:7
+#, python-format
+msgid "This work is licensed under a %(cc)s"
+msgstr "To delo je objavljeno pod licenco %(cc)s"
+
+#: templates/partial/disqus.html:13 templates/partial/isso.html:20
+msgid "Please enable JavaScript to view comments."
+msgstr "Za ogled komentarjev omogočite JavaScript."
+
+#: templates/partial/flex.html:3
+#, python-format
+msgid "Built with %(pelican_url)s using %(flex_url)s theme"
+msgstr "Narejeno s %(pelican_url)s z %(flex_url)s temo"
+
+#: templates/partial/flex.html:10
+#, python-format
+msgid "Switch to the %(dark_url)s | %(light_url)s | %(browser_url)s theme"
+msgstr "Preklopi na %(dark_url)s | %(light_url)s | %(browser_url)s temo"
+
+#: templates/partial/nav.html:3
+msgid "Home"
+msgstr "Domov"
+
+#: templates/partial/nav.html:10
+msgid "Atom"
+msgstr "Atom"
+
+#: templates/partial/nav.html:14
+msgid "RSS"
+msgstr "RSS"
+
+#: templates/partial/neighbors.html:5
+msgid "Previous Post"
+msgstr "Prejšnja objava"
+
+#: templates/partial/neighbors.html:10
+msgid "Next Post"
+msgstr "Naslednja objava"
+
+#: templates/partial/pagination.html:5
+msgid "Older Posts"
+msgstr "Starejše objave"
+
+#: templates/partial/pagination.html:10
+msgid "Newer Posts"
+msgstr "Novejše objave"
+
+#: templates/partial/share_post.html:4
+msgid "Share on"
+msgstr "Deli na"
+
+#: templates/partial/share_post.html:5
+msgid "Share via Email"
+msgstr "Deli preko e-pošte"
+
+#: templates/partial/share_post.html:7
+msgid "Share on Diaspora"
+msgstr "Deli na Diaspori"
+
+#: templates/partial/share_post.html:9
+msgid "Share on Facebook"
+msgstr "Deli na Facebooku"
+
+#: templates/partial/share_post.html:11
+msgid "Share on Hacker News"
+msgstr "Deli na Hacker News"
+
+#: templates/partial/share_post.html:13
+msgid "Share on LinkedIn"
+msgstr "Deli na LinkedInu"
+
+#: templates/partial/share_post.html:15
+msgid "Share on Mastodon"
+msgstr "Deli na Mastodonu"
+
+#: templates/partial/share_post.html:17
+msgid "Share via Reddit"
+msgstr "Deli na Redditu"
+
+#: templates/partial/share_post.html:19
+msgid "Share on Twitter"
+msgstr "Deli na Twitterju"
+
+#: templates/partial/share_post.html:21
+msgid "Share on Bluesky"
+msgstr "Deli na Bluesky"
+
+#: templates/partial/sidebar.html:22 templates/partial/sidebar.html:26
+msgid "Search..."
+msgstr "Iskanje..."
